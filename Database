@@ -1,0 +1,34 @@
+First need to connect local server via Linux.
+Please follow the command:
+
+cd C:\Program Files\MySQL\MySQL Server 8.0\bin
+MySQL -u root -p
+It will ask for enter the password: ****
+========================================
+Next step please how to check the databases and  create the databases.
+
+show databases;--for checking purpose
+create database customer;-- for creating purpose
+======================================================================
+Next step how will create the table inside the databases please use the below format query.
+
+CREATE TABLE emp.student (
+    ID INT (20),
+    Fname VARCHAR(50),
+	Branchname VARCHAR(100),
+    Course VARCHAR(100),
+    Rollno INT(200),
+    City VARCHAR(50)
+);
+====================================================================================
+Next step how will insert  the data in the table please use the below format query.
+
+INSERT INTO student (ID,Fname,Branchname,course,Rollno,City)
+VALUES
+(1,'Manish','IT','Computer',01,'Hajipur');
+===============================================================================
+How to check the data from table please use the below format query.
+
+Select * from student;
+==========================================================================
+
